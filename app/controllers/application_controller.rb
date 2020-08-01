@@ -5,4 +5,7 @@ class ApplicationController < ActionController::Base
     def goodbye
         render html:"goodbye, world!"
     end
+    def neri
+        render html:"やることいっぱい"
+    end
 end
